@@ -1,0 +1,53 @@
+h1
+      {
+         color: red;
+       }
+.pavan
+{
+color:green;
+border:2px solid green;
+}
+#pavan
+{
+color:blue;
+border: 2px dotted blue;
+}
+li[pk="list"]
+{
+color:yellow;
+list-style:none;
+}
+.list
+{
+list-style:none;
+
+}
+ul > li
+{
+color:pink;
+font-size:40px;
+}
+ul ~ p
+{
+color:rgba(200,0,0,0.6);
+font-size:30px;
+}
+h2 + p
+{
+color:orange;
+font-size:50px;
+}
+h4 em
+{
+color:violet;
+}
+ol.descendent li
+{
+display:flex;
+padding:10px;
+}
+/* h1,h2,h3,h4,li,p,a
+{
+color:green;
+font-size:50px
+} */

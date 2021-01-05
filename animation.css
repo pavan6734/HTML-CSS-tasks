@@ -1,0 +1,72 @@
+
+.main
+{
+   
+    background-color: red;
+    border: 1px solid red;
+    /* transition-delay: 2s ;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-property: height; */
+    transition: 5s ease-in-out 2s;
+    /* transform: scale(1.0); */
+    width: 500px;
+    margin-top: 300px;
+    transform: scale(1.5);
+    margin-left: 300px;
+    
+ 
+}
+.parent
+{
+    /* border: 1px solid green; */
+    transition-delay: 5s ;
+    background-color: yellow;
+    /* transition-duration: 5s; */
+    /* transform: rotate(80deg ); */
+    /* transform: skew(10deg,10deg);*/
+    animation-name: pavan;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+  
+    
+} 
+@keyframes pavan
+{
+    0%
+    {
+        left: 100px;
+        top:200px;
+        bottom: 100px;
+        right: 100px;
+       
+    }
+    25%
+    {
+        background-color: blue;
+        left: 100px;
+        top:200px;
+        bottom: 100px;
+        right: 100px;
+    }
+    50%
+    {
+        padding: 20px;
+        left: 100px;
+        top:200px;
+        background-color: olivedrab;
+    }
+    75%
+    {
+        left: 100px;
+        top:200px;
+    }
+    100%
+    {
+        left: 100px;
+        top:200px;
+        margin-top: 500px;
+    }
+}

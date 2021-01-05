@@ -1,0 +1,120 @@
+$(function(){
+	
+	$('#myNavbar ul').hide();
+
+	$("#cat-list li").on('click',function(){
+		var target = $(this).attr('data-target');
+		$('#'+target).siblings().hide();
+		$('#'+target).show();
+	});
+
+	$('#myNavbar li').on('click',function(){
+		$('#myNavbar ul').hide();
+	});
+
+	$('#menuBtn').on('click',function(){
+		$('#myNavbar ul').show();
+	});
+
+	
+	// $("#free_demo,.contact_form,#schedules,#form_session").on('click','#submit_form,#schedules_form,#form_session_submit',function(e){
+	// 		e.preventDefault();
+	// 		var formData;
+	// 		if(e.target.id=="submit_form"){
+	// 			formData = {
+	// 				"name":$('#free_demo input[name="fullname"]').val(),
+	// 				"email":$('#free_demo input[name="email"]').val(),
+	// 				"course_name":$('#free_demo input[name="course_name"]').val(),
+	// 				"phone_number":$('#free_demo input[name="phone_number"]').val(),
+	// 				"demo_date":$('#free_demo input[name="demo_date"]').val(),
+	// 				"message":$('#free_demo textarea[name="message"]').val(),
+	// 				"poptype":$('#free_demo input[name="poptype"]').val(),
+	// 				"g-recaptcha-response":$('#free_demo textarea[id="g-recaptcha-response"]').val()					
+	// 			}
+	// 		}else if(e.target.id=="schedules_form"){
+
+	// 			formData = {
+	// 				"name":$('#schedules input[name="fullname"]').val(),
+	// 				"email":$('#schedules input[name="email"]').val(),
+	// 				"course_name":$('#schedules input[name="course_name"]').val(),
+	// 				"phone_number":$('#schedules input[name="phone_number"]').val(),
+	// 				"demo_date":$('#schedules input[name="demo_date"]').val(),
+	// 				"message":$('#schedules textarea[name="message"]').val(),
+	// 				"poptype":$('#schedules input[name="poptype"]').val()					
+	// 			}
+
+	// 		}else if(e.target.id="form_session_submit"){
+	// 			formData = {
+	// 				"name":$('#form_session input[name="fullname"]').val(),
+	// 				"email":$('#form_session input[name="email"]').val(),
+	// 				"course_name":$('#form_session input[name="course_name"]').val(),
+	// 				"phone_number":$('#form_session input[name="phone_number"]').val(),
+	// 				"demo_date":$('#form_session input[name="demo_date"]').val(),
+	// 				"message":$('#form_session textarea[name="message"]').val(),
+	// 				"poptype":$('#form_session input[name="poptype"]').val()					
+	// 			}
+	// 		}
+	// 		console.log(formData);
+	// 		$.ajax({
+	// 			url: "contact.php",
+	// 			type: "POST",
+	// 			dataType:'json',
+	// 			data: formData,				
+	// 			success: function(response){
+	// 				console.log(response);
+	// 				if(response.type=="message"){
+	// 					$("#free_demo ").modal('hide');
+	// 					$('#success_pop').modal();
+	// 				}
+	// 			},
+	// 			error: function(error){
+	// 				console.log(error);
+	// 			} 
+	// 		});
+	// 	});
+
+	//exitpop
+	// $("#exitpop,#watch_demo,#download_curriculum").on('click','#exitpop_form,#watch_demo_form,#curriculum_form',function(e){
+	// 	e.preventDefault();
+	// 	var formData;
+	// 	console.log(e.target.id);
+	// 	if(e.target.id=="watch_demo_form"){
+	// 		formData = {
+	// 				"email":$('#watch_demo input[name="email"]').val(),
+	// 				"phone_number":$('#watch_demo input[name="phone_number"]').val(),
+	// 				"poptype":$('#watch_demo input[name="poptype"]').val()
+	// 			}
+	// 	}else if(e.target.id=="exitpop_form"){
+	// 		formData = {
+	// 				"email":$('#exitpop input[name="email"]').val(),
+	// 				"phone_number":$('#exitpop input[name="phone_number"]').val(),
+	// 				"poptype":$('#exitpop input[name="poptype"]').val()
+	// 			}
+	// 	}else if(e.target.id=="curriculum_form"){
+	// 		formData = {
+	// 				"email":$('#download_curriculum input[name="email"]').val(),
+	// 				"phone_number":$('#download_curriculum input[name="phone_number"]').val(),
+	// 				"poptype":$('#download_curriculum input[name="poptype"]').val()
+	// 			}
+	// 	}
+
+	// 		$.ajax({
+	// 			url: "contact.php",
+	// 			type: "POST",
+	// 			dataType:'json',
+	// 			data: formData,				
+	// 			success: function(response){
+	// 				console.log(response);
+	// 				if(response.type=="message"){
+	// 					$("#free_demo ").modal('hide');
+	// 					$('#success_pop').modal();
+	// 				}
+	// 			},
+	// 			error: function(error){
+	// 				console.log(error);
+	// 			} 
+	// 		});
+
+	// });
+	
+});

@@ -1,0 +1,23 @@
+/* .ex1
+{
+    display: inline;
+    display: block;
+    display: none;
+} */
+div
+{
+   
+    /* display: block; */
+    /* display: inline; */
+    /* display: none; */
+    /* display: flex; */
+    display: inline-flex;
+}
+/* .ex1
+{
+    background-color: red;
+    display: none;
+    display: inline;
+    display: block;
+    display: inline-block;
+} */

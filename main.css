@@ -1,0 +1,23 @@
+.parent-flex{
+    border: 2px solid orangered;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.child-flex{
+    border: 2px solid blue;
+    padding: 12px;
+    /* flex: 1; */
+    /* margin: 15px; */
+}
+.main-flex{
+    flex: 4;
+}
+div.logo {
+    padding: 0;
+}
+div.logo img{
+    height: 50px;
+}

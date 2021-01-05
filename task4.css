@@ -1,0 +1,135 @@
+.parent{
+    display: flex;
+}
+.child1{
+    flex:1;
+}
+.pk
+{
+    display: grid;
+    grid: auto/auto auto auto auto auto;
+    list-style: none;
+}
+.pk1:hover .pkc
+{
+    display: block;
+}
+.pkc
+{
+    display: none;
+    position: absolute;
+}
+.main1
+{
+    display: flex;
+    padding: 10px;
+}
+.maina
+{
+    width: 40%;
+    flex:2;
+    padding: 10px;
+}
+.mainc
+{
+    border: 1px solid red;
+    padding: 20px;
+    background-color: rgba(65, 105, 225, 0.247);
+}
+.main2
+{
+    display: flex;
+}
+.content::after
+{
+    content:'after';
+    list-style: none;
+}
+.main4
+{
+    display: flex;
+}
+.image
+{
+    padding: 60px;
+}
+.main5
+{
+    display: grid;
+    grid: auto/ auto auto auto;
+}
+.abc
+{
+    padding: 30px;
+}
+.main6
+{
+    display: flex;
+    background-image: url(../wallpaper2you_389740.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+.main7
+{
+    display: grid;
+    grid: auto/auto auto auto;
+    padding: 10px;
+    text-align: center;
+}
+.div2
+{
+    padding: 10px;
+    border:2px solid black;
+}
+.div1:hover 
+{
+    color: teal;
+    border:2px solid black;
+    
+
+}
+/* .div1:hover #siva{
+    display:block; 
+} */
+
+.div1:hover #sk{
+    display: block;
+}
+
+.main9
+{
+    display: flex;
+}
+.form
+{
+    padding: 100px;
+}
+.btn1
+{
+    text-align: center;
+
+}
+.btn
+{
+    background-color: rgba(68, 111, 190, 0.199);
+    padding: 20px;
+    width: 150px;
+}
+.footer
+{
+    display: flex;
+}
+.fa .fa-map-marker
+{
+    color: brown;
+}
+.ftr1 a .ftr2
+{
+    text-decoration: none;
+}
+#sk{
+    display: none;
+    position:absolute;
+}
+

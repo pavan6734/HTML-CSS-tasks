@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Introduction</title>
+
+    <style>
+        div {
+            padding: 20px;
+            border: 10px solid orange;
+            margin: 20px;
+        }
+
+        .intro {
+            font-size: 50px;
+            color: red
+        }
+
+        img {
+            width: 100%;
+            /*            height: 200px;*/
+        }
+
+        /*
+        ul li{
+            list-style: ethiopic-halehame-ti-et;
+        }
+*/
+
+        table,
+        th,
+        td {
+            border: 3px solid red;
+            border-collapse: collapse;
+            padding: 10px
+        }
+
+
+        fieldset {
+            background: orange;
+            color: #fff;
+            padding: 20px;
+        }
+
+        legend {
+            background: red;
+            padding: 20px;
+            font-size: 25px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--
+    <p class="intro">This is my content </p>
+    <p class="intro">This<br> is <br> my <br>content </p>
+    <hr>
+-->
+
+    <div class="content">
+        <h1>Text Tags</h1>
+        <hr>
+        <p> <strong> This is a paragraph </strong> </p>
+        <p>This is a <em>paragraph</em></p>
+        <h1> This is my Heading 1 </h1>
+        <h2> This is my Heading 2 </h2>
+        <h3> This is my Heading 3 </h3>
+        <h4> This is my Heading 4 </h4>
+        <h5> This is my Heading 5 </h5>
+        <h6> This is my Heading 6 </h6>
+        <strong>This is Written using Strong </strong><br><br>
+        <em>This is Written using em</em><br><br>
+        <abbr title="Acheiversit"> AIT</abbr>
+    </div>
+
+    <div>
+        <h1>Link Tags</h1>
+        <hr>
+        <a href="https://www.achieversit.com/" target="_blank">AcheiversIt</a>
+    </div>
+
+    <div>
+        <h1>Image and Object Tags</h1>
+        <hr>
+        <img src="cyan.png" alt="This is Cyan Image">
+    </div>
+    <div>
+        <h1>Lists</h1>
+        <hr>
+        <h3>Un-Ordered Lists</h3>
+
+
+        <ul>
+            <li>Milk</li>
+            <li>Tea</li>
+            <li>Coffee</li>
+            <li>Boost</li>
+            <li>Horlicks</li>
+        </ul>
+
+        <h3>Ordered Lists</h3>
+        <ol start="5">
+            <li>Step-1</li>
+            <li>Step-2</li>
+            <li>Step-3</li>
+            <li>Step-4</li>
+            <li>Step-5</li>
+            <li>Step-6</li>
+        </ol>
+
+        <h3>Descriptive Lists</h3>
+
+        <dl>
+            <dt>HTML</dt>
+            <dt>CSS</dt>
+            <dt>JavaScript</dt>
+            <dd>Html is the Structure of a Web Page</dd>
+
+            <dd>Css is the style of the web page</dd>
+
+            <dd>Javascript is the LIfe to the web Page</dd>
+        </dl>
+    </div>
+
+    <div>
+        <h1>Tables</h1>
+        <hr>
+
+        <table border="1">
+            <thead>
+                <th>s.no</th>
+                <th>Name</th>
+                <th>Contact</th>
+                <th colspan="2">Mail</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Manoj</td>
+                    <td>8978055697</td>
+                    <td>manojchowdhary@123</td>
+                    <td>Gender</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">2</td>
+                    <td rowspan="2">Krish</td>
+                    <td>999351904</td>
+                    <td rowspan="2">krish@123</td>
+                    <td rowspan="2">Gender</td>
+                </tr>
+                <tr>
+                    <td>0234259545</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td colspan="5">This is My table</td>
+            </tfoot>
+        </table>
+    </div>
+
+    <div>
+        <h1>Form</h1>
+        <hr>
+        <form name="ContactForm" action="/" method="post">
+            <fieldset>
+                <legend>Contact Form :</legend>
+                <label for="fname">First Name :</label>
+                <input type="text" name="fname" placeholder="Please Enter First Name" required><br><br>
+
+                <label for="lname">Last Name :</label>
+                <input type="text" name="lname" placeholder="Please Enter Last Name" required><br><br>
+
+                <label for="psd">Password :</label>
+                <input type="password" name="psd" placeholder="Please Enter Password"><br><br>
+
+                <label for="gender">Gender :</label>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female" checked>Fe-Male
+                <input type="radio" name="gender" value="other">Other<br><br>
+
+
+                <label for="Education">Education :</label><br><br>
+                <input type="checkbox" name="Education 1" value="10th" checked>10th<br><br>
+                <input type="checkbox" name="Education 2" value="PUC">PUC<br><br>
+                <input type="checkbox" name="Education 3" value="UG">Under Graduation<br><br>
+                <input type="checkbox" name="Education 4" value="Graduation" checked>Graduation<br><br>
+
+                <label for="color">Education :</label><br><br>
+                <input type="color" name="color" value="#37ff00"><br><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+                <input type="button" value="Click Here" onclick="alert('This Form is Submitted')"><br><br>
+            </fieldset>
+        </form>
+    </div>
+
+    <script>
+        console.log("My Name is Krish");
+        console.log("My Name is Manoj");
+        console.log("My Name is Kitu");
+    </script>
+
+</body>
+
+</html>
+
+<!--
+    The building blocks of HTML5 - 1) Elements / Tags
+                                   2) Attributes.
+<Start-tag attributename="attribute value"> (Content)Here We write our content </Endtag>
+
+    Basic tags we use : <div> , <p> , <h1> , <h2> ---- <h6> , <form> , <ul> , <li> , <table>
+
+    1) Unclosed tags : <br> , <hr>
+
+    2) Meta Tags : DOCTYPE , title , link , meta , style
+
+    3) Text Tags : <p> , <h1> , <h2> , <h3> , <h4> , <h5> , <h6> , <strong> , <em> , <abbr> , <accronym> , <bdo> , <address> , <b> , <blockquote>
+            
+                   , <cite> , <q> , <samp> , <var> , <pre> , <dfn> , <kbd>.
+
+    4) Link Tags : <a> , <base>
+
+    5) Image and Object Tags : <img> , <area> , <param> , <map> , <object>
+
+    6) List Tags : <ul> - <li> , <ol> - <li> , <dl> - <dt> and ,<dd>
+
+    7) Table : table , tr , td , tbody , thead , tfoot , colspan , rowspan , col , colgroup , caption
+
+    8) Forms : form , input , textarea , select , option , label , button , fieldset , legend
+
+                Input Types : text , password , email , button , checkbox , color , date , datetime-local , file , hidden , image , month, reset        
+                            , range , radio , number  , search , submit , tel , time , url , week 
+
+                Form Attributes : required, checked , disabled , max , maxlength , min  , pattern , readony , size , step , value
+-->

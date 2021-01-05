@@ -1,0 +1,116 @@
+.parent-flex{
+    display:flex;
+    border:none;
+    padding: 12px;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(19, 8, 31);
+
+}
+
+.child-flex
+{
+    display: inline;
+    padding: 10px;
+    margin: 30px;
+    border: 2px solid blue;
+    color:white;
+    border: none;
+
+    
+}
+#pavan
+{
+    padding:10px;
+   margin: auto;
+    height:400px;
+    width: 1200px;
+
+}
+.main-flex
+{
+    display: flex;
+    background-color: slategrey;
+    border: none;
+}
+.child-flexA
+{
+display: flex;
+padding: 10px;
+justify-items: flex-end;
+
+}
+
+.footer {
+    display: flex;
+    background-color: slategrey;
+
+}
+
+.child-footer {
+    border: 2px solid black;
+    padding: 10px;
+    flex: 2;
+    border: none;
+    
+}
+
+.inner_child,.child2a,.child2b {
+    padding: 10px;
+    border: 2px solid red;
+    border: none;
+    margin-right: 50px;
+
+}
+.child2
+{
+
+    display: flex;
+}
+
+.align {
+    margin: 20px 40px;
+}
+.child1
+{
+    border: 2px solid red;
+    margin-right: 50px;
+    padding: 20px;
+    border: none;
+
+}
+/*#align1{
+    background-color: ;
+}*/
+
+#center
+{
+/*align-content: center;*/
+margin-right: 10px;
+margin-left: 1px;
+text-align: center;
+}
+.button
+{
+    position: center ;
+    margin-left: 100px;
+    background-color: red;
+}
+.child-flexb
+{
+    flex:none;
+
+}
+.parent-flexB
+{
+    flex:1;
+}
+#pavanB
+{
+    width:400px;
+}
+.parent-flexA
+{
+    flex:2;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>operators, conditions, loops</title>
+    
+    
+</head>
+<body>
+    <h1>Operators</h1>
+    <script>
+       document.writeln( "<h2>Arthematic operators</h2>");
+        var a=7;
+        var b=4;
+        var c=a+b;
+        // document.write( c=a+b +" value of c is </br>");
+        // document.write( c=a-b +" value of c is </br>");
+        // document.write( c=a*b +" value of c is </br>");
+        // document.write( c=a/b +" value of c is </br>");
+        // document.write( c=a%b +" value of c is </br>"); 
+        document.writeln( "<h2>assignment  operators</h2>");   
+        // document.write( c=a+b +" value of c is </br>");
+        // var c=3;
+        // document.write( c=d,c+=(a+b),c-=(a-b),c*=(a*b),c/=(a/b),c*=(a*b)  +" value of c is </br>");
+        document.writeln( (c+=a+b) +"<br>");
+        document.writeln((c-=a-b)+"<br>");
+        document.writeln((c*=a*b)+"<br>");
+        document.writeln((c/=a/b)+"<br>");
+        document.writeln((c%=a%b)+"<br>");
+        // document.write("<h1>loops</h1>")
+        document.write("<br><br><br><br>");
+        document.write("<h2>Loops statements</h2>");
+        document.write("<br><br>"+"<h3> for loop</h3>")
+        for(i=0;i<5;i++)
+        {
+            document.write(" value" + i +"<br>");
+        }
+        // prompt(n="Enter N value");
+        // document.write(n);
+        document.write("<br><br>"+"<h3> while loop</h3>")
+         var n=prompt("Enter  n value");
+        while(n<10)
+        {
+            document.write("number is"+ n + "<br>");
+            n++;
+        }
+        document.write("<br><br>"+"<h3>  Do while loop</h3>")
+       do{
+           var k=2;
+           document.write("value are"+k +"<br>");
+
+       }while(k<5)
+       {
+           k++;
+       }
+
+    </script>
+    <h1></h1>
+
+  
+
+    
+</body>
+</html>

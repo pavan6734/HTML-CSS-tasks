@@ -1,0 +1,87 @@
+
+.child
+{
+    
+    margin: 10px;
+    padding: 30px;    
+}
+#child
+{
+    background-color: blue;
+    padding: 30px;
+    margin: 10px;
+}
+li {
+    text-decoration: none;
+    display: inline;
+}
+.lists {
+    margin-left: 240px;
+    
+}
+.child:hover {
+    background-color:skyblue;
+}
+
+.heading {
+    display: flex;
+    margin-left : 320px;
+}
+
+.text {
+    margin-top: 40px;
+  color: rgb(47, 6, 160) ;
+}
+#heading{
+    text-align: center;
+}
+#some{
+    text-align: center;
+}
+#pk{
+    text-align: center;
+}
+.parent-main
+{
+    display: flex;
+}
+#pavan1
+{
+    height: 205px;
+    width: 97%;
+}
+.child-main
+{
+    display:flex;
+}
+.childA{
+flex: 2;
+padding-right: 55px;
+}
+.button
+{
+    align-items:center
+}
+#para
+{
+    height: 205px;
+    width: 92%;
+
+}
+.footer
+{
+    text-align: center;
+}
+.main-image
+{
+    border: 2px solid red;
+    padding: 50px;
+    background-color: rebeccapurple;
+    text-align: center;
+}
+.image-text
+{
+    border: 1px solid beige;
+    background-color: red;
+    padding: 10px;
+}

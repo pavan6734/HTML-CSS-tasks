@@ -1,0 +1,447 @@
+.parent
+{
+    background-color: rgb(25, 40, 54);
+    /* /* display: grid;
+    grid: auto/auto auto auto auto auto auto auto; */
+display: flex;
+align-items: center;
+position: sticky;
+top: 0;
+
+}
+.child
+{
+    padding: 20px;
+    text-align: center;
+    color:white;
+    cursor: pointer;
+}
+.child:hover
+{
+    color: orangered;
+}
+#btn1
+{
+    padding: 20px;
+    background-color: rgb(25, 40, 54);
+    border: none;
+    color: white;
+    padding-right: 10px;
+    cursor: pointer;
+
+}
+#btn1:hover
+{
+    background-color: orangered;
+    border: none;
+}
+#btn2
+{
+    padding: 20px;
+    background-color: rgb(25, 40, 54);
+    border: none;
+    color: white;
+    padding-right: 10px;
+    cursor: pointer;
+}
+#btn2:hover
+{
+    background-color: orangered;
+    border: none;
+}
+
+/* .childA:hover
+{
+    padding: 10px;
+    border-color: 1px solid orangered;
+   
+} */
+.parent1
+{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.child1
+{
+    padding: 20px;
+    /* cursor: pointer; */
+}
+.child1:hover
+{
+    background-color: orangered;
+    color: blue;
+}
+.parent2
+{
+    text-align: center;
+    background-image: url(../bg.png);
+    padding: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#childB:hover
+{
+    background-color: orangered;
+    border: none;
+    padding: 20px;
+    /* position: relative; */
+    margin-right: 20px;
+}
+#icon
+{
+    height:30px;
+    width: 300px; 
+    float:right; 
+    padding-right: 100px;
+    
+}
+#icon1
+{
+    background-color: red;
+    float: right;
+    text-align: center;
+    height:35px;
+    position:absolute;
+    margin-left: 356px;
+}
+.parent3
+{
+    display: flex;
+    
+    
+}
+.child3
+{
+    /* border: 1px solid red; */
+    width:150%;
+    background-color:rgb(226, 215, 215) ;
+    position: relative;
+    bottom: 50px;margin-left: 10px;  
+    padding-left: 10px;
+    margin-left: 50px;
+} 
+.child3a
+{
+    width:150%;
+    background-color:rgb(226, 215, 215) ;
+    position: relative;
+    bottom: 50px;
+    margin-left: 78px;  
+    padding-left: 10px;
+    display: flex;
+}
+.BTN
+{
+ position: relative;
+     right:100px;
+     width: 20px;
+     padding-right: 59px;
+}
+.BTN:hover
+{
+    color: orangered;
+}
+#im
+{
+    width: 69px;
+}
+.main
+{
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+    
+.parent4
+{
+    /* border:2px solid orangered ; */
+    padding: 10PX;
+    margin: 10px;
+    background-color:rgb(165, 151, 151);
+
+}
+.header
+{
+    display: flex;
+    background-color: orangered;
+}
+.hed1
+{
+    padding: 10px;
+}
+.main1
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.main2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 98px;
+    margin-right: 102px;
+}
+    
+.parent5
+{
+    /* border:2px solid rgb(54, 25, 26); */
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(219, 226, 233);
+}
+.main3
+{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr; */
+    display: flex;
+    margin-left: 98px;
+    margin-right: 102px;
+}
+.ic1
+{
+    /* border:1px solid rgb(25, 40, 54); */
+    text-align: center;
+    padding:20px;
+    /* margin-left: 75px;
+    margin-right: 77px; */
+    border: none;
+    background-color: white;
+}
+.parent6
+{
+    /* border:2px solid orangered ; */
+    padding: 10PX;
+    margin: 10px;
+    background-color: rgb(219, 226, 233);
+} 
+.ic2
+{
+    /* border:1px solid rgb(25, 40, 54); */
+    text-align: center;
+    padding:20px;
+    /* margin-left: 75px;
+    margin-right: 77px; */
+    background-color: white;
+    border: none;
+}
+.pk
+{
+    text-align: center;
+    border: none;
+    color: white;
+    /* width:100px; */
+     /* background-color:rgb(226, 215, 215) ; */
+      color: darkblue;
+      padding: 20px;
+}
+.main4
+{
+    display: flex;
+    margin-left: 10px;
+}
+.rk
+{
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(253, 250, 243);
+    box-shadow: wheat;
+}
+.main5
+{
+    display: flex;
+    text-align: center;
+}
+.main6
+{
+    background-image: url(../bg.png);
+    padding: 40px;
+}
+.parent9
+{
+    display: flex;
+   
+}
+.main6a
+{
+    /* border:1px solid black; */
+    margin: 20px;
+    text-align: center;
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    opacity: 0.7;
+}
+.main7
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+.parent0
+{
+    /* border: 1px solid black; */
+ margin: 20px;  
+ background-color:rgb(226, 215, 215) ;
+
+ 
+}
+.logos
+{
+    /* border: 1px solid black; */
+    width: 150px;
+    height: 80px;
+    padding:30px;
+    box-shadow: 100px;
+    text-align: center;
+    /* background-color: red; */
+    
+}
+.main8
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.child-a
+{
+    background-image: url(../bg.png);
+    /* border: 1px solid red; */
+    padding: 10px;
+    margin: 20px;
+    color: white;
+}
+#ico
+{
+    /* position: relative;
+    left:30px; */
+    float: right;
+    padding-bottom: 20px;
+    color:orangered;
+    font-size: 30px;
+}
+.main9
+{
+    /* background-image: url(C:/Users/Pavan/Desktop/pavan.jpg); */
+    background-image: url(../bg.png);
+    padding: 20px;
+    margin-left: 40px;
+    padding-left: 30px;
+    margin-right: 40px;
+}
+.main10
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.child11
+{
+    /* background-color: red; */
+    /* text-align: center; */
+    background-image: url(../background\ image.jpg);
+    padding: 30px;
+}
+
+#para
+{
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+} 
+.ol
+{
+    margin-left: 50px;
+}
+.search
+{
+    display: flex;
+ 
+   
+}
+.main12
+{
+    background-color: blue;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 200px;
+    opacity: 0.8;
+   
+}
+.srk
+{
+    margin: 20px;
+   
+
+}
+.pbl
+{
+    background-color: orangered;
+   width: 100px;
+   height: 45px;
+   border: none;
+}
+   
+/* .pbl:hover
+{
+    background-color: rgb(42, 42, 207);
+    border: none;
+    padding: 20px;
+} */
+.footer
+{
+    display: flex;
+    /* background-color: rgb(25, 40, 54); */
+    color:white;
+    /* padding: 20px;
+    margin-left: 20px;
+     */
+}
+.fmain
+{
+    background-color: rgb(25, 40, 54);
+}
+.Last
+{
+    
+    /* grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* padding: 10px; */
+    background-color:rgb(165, 151, 151);
+    
+    position: sticky;
+    bottom:  0;
+    position: -webkit-sticky;
+    
+    padding-left: 370px;
+    
+   
+}
+.last1
+{
+    margin: 20px;
+    text-align:center ;
+    display: flex;
+    
+   
+
+
+
+

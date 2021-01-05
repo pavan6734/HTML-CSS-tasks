@@ -1,0 +1,21 @@
+
+h2{
+    color: green;
+    border: 2px solid green;
+}
+h1{
+    color: yellow;
+    border: 2px solid yellow;
+}
+.head-1{
+    font-size: 30px;
+    color: violet;
+    text-align: center;
+    border: 2px solid violet;
+}
+#head-1{
+    font-size: 50px;
+    color: red;
+    text-align: right;
+    border: 2px dashed red;
+

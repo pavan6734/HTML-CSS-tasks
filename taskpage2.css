@@ -1,0 +1,83 @@
+
+.child
+{
+    
+    margin: 10px;
+    padding: 30px;    
+}
+#child
+{
+    background-color: blue;
+    padding: 30px;
+    margin: 10px;
+}
+li {
+    text-decoration: none;
+    display: inline;
+}
+.lists {
+    margin-left: 240px;
+    
+}
+.child:hover {
+    background-color:skyblue;
+}
+
+.heading {
+    display: flex;
+    margin-left : 320px;
+}
+
+.text {
+    margin-top: 40px;
+  color: rgb(47, 6, 160) ;
+}
+#heading{
+    text-align: center;
+}
+#some{
+    text-align: center;
+}
+#pk{
+    text-align: center;
+}
+.parent-main
+{
+    display: flex;
+}
+#pavan1
+{
+    height: 205px;
+    width: 97%;
+}
+.child-main
+{
+    display:flex;
+}
+.childA{
+flex:2;
+
+}
+.childB
+{
+    padding-left: 30px;
+}
+#para
+{
+    height: 205px;
+    width: 92%;
+    padding-right: 50px;
+
+}
+.footer
+{
+    text-align: center;
+}
+.child1
+{
+    flex:2;
+}
+.button
+{
+text-align: center;
+}
